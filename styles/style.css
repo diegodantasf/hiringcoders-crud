@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(0,0,0,0.1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#brand {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#brand img {
+    height: 70px;
+}
+
+#content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+[menu] {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+}
+
+[menu] button {
+    width: 30%;
+    margin: 5px;
+    font-size: 20px;
+}
+
+[users], [products] {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#content > div > div {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+button {
+    margin-top: 5px;
+}
