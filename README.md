@@ -19,6 +19,6 @@ User details
 
 ![Users](/images/users.png)
 
-After adding a user/product by filling each input, you can remove each pressing the removing button that is in the table.
+After adding a user/product by filling each input, you can remove one entry by pressing the removing button that is in the table.
 
 All the data is stored using LocalStorage.
